@@ -1,11 +1,6 @@
 
 import os
 import re
-ydl_opts = {
-    "geo-bypass": True,
-    "nocheckcertificate": True
-    }
-ydl = YoutubeDL(ydl_opts)
 links=[]
 finalurl=""
 STREAM=os.environ.get("STREAM_URL", "http://node-25.zeno.fm/kezsc0y2wwzuv?listening-from-radio-garden=1622271954020&rj-ttl=5&rj-tok=AAABec5bAE4Aj31dmRAEFgcbvw")
