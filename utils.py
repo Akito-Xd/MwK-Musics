@@ -27,7 +27,6 @@ from pyrogram.methods.messages.download_media import DEFAULT_DOWNLOAD_DIR
 from pytgcalls import GroupCall
 import signal
 from pyrogram import Client
-from youtube_dl import YoutubeDL
 from os import path
 bot = Client(
     "MwKVC",
